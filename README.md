@@ -67,7 +67,7 @@ If you run your website through **SquareSpace**, the steps are simple:
 
 ## ADVANCED / CUSTOM IMPLEMENTATION
 
-If you have an advanced technical knowledge and would prefer to implement the CSS and JavaScript files manually and/or you prefer not to link external files into your website, you may download the [source files from here](https://www.thisisnow.com/wep/OutOfOffice.zip)
+If you have an advanced technical knowledge and would prefer to implement the CSS and JavaScript files manually and/or you prefer not to link external files into your website, you may download the [source files from here](https://www.thisisnow.com/wep/OutOfOffice.zip).
 
 _Developed at [**Now**](https://www.thisisnow.com/)._
 
