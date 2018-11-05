@@ -34,7 +34,7 @@ function out_of_office() {
 	echo '<script type="text/javascript" src="https://www.thisisnow.com/wep/OutOfOffice.js"></script>';
 }
 add_action( 'admin_head', 'out_of_office' );
-add_action( 'wp_head', 'out_of_office' );
+add_action( 'wp_head', 'out_of_office' );`
 
 ###### OPTION 2
 
