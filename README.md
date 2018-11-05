@@ -5,7 +5,7 @@ Women's Equality Party - Out Of Office - 2018
 
 ## STANDARD WEBSITE / FTP
 
-1. If you have access to the index.html page, you can copy and paste the following CSS and JavaScript links in between the `<head>` and `</head> tags:
+1. If you have access to the index.html page, you can copy and paste the following CSS and JavaScript links in between the `<head>` and `</head>` tags:
 ```
 <link rel="stylesheet" type="text/css" href="https://www.thisisnow.com/wep/OutOfOffice.css">
 <script type="text/javascript" src="https://www.thisisnow.com/wep/OutOfOffice.js"></script>
