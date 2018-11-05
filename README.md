@@ -5,7 +5,7 @@ Women's Equality Party - Out Of Office - 2018
 
 ## STANDARD WEBSITE / FTP
 
-1. If you have access to the index.html page, you can copy and paste the following CSS and JavaScript links in between the <head> and </head> tags:
+1. If you have access to the index.html page, you can copy and paste the following CSS and JavaScript links in between the `<head>` and `</head> tags:
 ```
 <link rel="stylesheet" type="text/css" href="https://www.thisisnow.com/wep/OutOfOffice.css">
 <script type="text/javascript" src="https://www.thisisnow.com/wep/OutOfOffice.js"></script>
@@ -23,10 +23,10 @@ The following options to update your WordPress website will most likely require 
 
 The fastest implementation of the Out Of Office on a WordPress website does not require any plugins:
 
-1. Open the WP admin dashboard for your website
-2. Navigate to Appearance > Editor
-3. Select functions.php from Theme Files
-4. Insert the following code at the end of the document, before the ?>
+1. Open the **WP admin dashboard** for your website
+2. Navigate to **Appearance > Editor**
+3. Select **functions.php** from Theme Files
+4. Insert the following code at the end of the document, before the **?>**
 ```
 // Out Of Office
 function out_of_office() {
@@ -40,13 +40,13 @@ add_action( 'wp_head', 'out_of_office' );
 
 If you prefer to avoid touching any code, an alternative is possible using a very simple plugin:
 
-1. Open the WP admin dashboard for your website
-2. Navigate to Plugins > Add New
-3. Search for the plugin called Head, Footer and Post Injections by Stefano Lisa
-4. Click the Install Now button on the plugin to install it
-5. Click the Activate button once the installation is complete
-6. Navigate to Settings > Header and Footer
-7. In the <HEAD> PAGE SECTION INJECTION box (either ON EVERY PAGE or ONLY ON THE HOME PAGE - whatever is your preference) paste the following CSS and JavaScript links:
+1. Open the **WP admin dashboard** for your website
+2. Navigate to **Plugins > Add New**
+3. Search for the plugin called **Head, Footer and Post Injections** by _Stefano Lisa_
+4. Click the **Install Now** button on the plugin to install it
+5. Click the **Activate** button once the installation is complete
+6. Navigate to **Settings > Header and Footer**
+7. In the **<HEAD> PAGE SECTION INJECTION** box (either _ON EVERY PAGE_ or _ONLY ON THE HOME PAGE_ - whatever is your preference) paste the following CSS and JavaScript links:
 ```
 <link rel="stylesheet" type="text/css" href="https://www.thisisnow.com/wep/OutOfOffice.css">
 <script type="text/javascript" src="https://www.thisisnow.com/wep/OutOfOffice.js"></script>
@@ -54,13 +54,13 @@ If you prefer to avoid touching any code, an alternative is possible using a ver
 
 ## SQUARESPACE
 
-If you run your website through SquareSpace, the steps are simple:
+If you run your website through **SquareSpace**, the steps are simple:
 
-1. Open the SquareSpace admin dashboard for your website
-2. Navigate to Pages
-3. Click the Cog / Settings button for your home page
-4. Navigate to Advanced
-5. Paste the following code into Page Header Code Injection and click save:
+1. Open the **SquareSpace admin dashboard** for your website
+2. Navigate to **Pages**
+3. Click the **Cog / Settings** button for your home page
+4. Navigate to **Advanced**
+5. Paste the following code into **Page Header Code Injection** and click **save**:
 ```
 <link rel="stylesheet" type="text/css" href="https://www.thisisnow.com/wep/OutOfOffice.css">
 <script type="text/javascript" src="https://www.thisisnow.com/wep/OutOfOffice.js"></script>
